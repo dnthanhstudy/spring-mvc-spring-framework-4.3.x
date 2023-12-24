@@ -55,6 +55,8 @@
             <artifactId>spring-context-support</artifactId>
             <version>${springframework.version}</version>
         </dependency>
+        <!-- Spring -->
+
         <!-- servlet api -->
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -68,11 +70,19 @@
             <artifactId>javax.servlet.jsp-api</artifactId>
             <version>${jsp.api.version}</version>
         </dependency>
+
         <!-- jstl -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
             <version>${jstl.version}</version>
+        </dependency>
+
+        <!-- sitemesh decorator -->
+        <dependency>
+            <groupId>opensymphony</groupId>
+            <artifactId>sitemesh</artifactId>
+            <version>2.4.2</version>
         </dependency>
     </dependencies>
     <build>

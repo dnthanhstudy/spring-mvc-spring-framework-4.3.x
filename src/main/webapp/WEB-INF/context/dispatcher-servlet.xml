@@ -31,4 +31,6 @@ http://www.springframework.org/schema/mvc
         <property name="suffix" value=".jsp"/>
 
     </bean>
+
+    <mvc:resources mapping="/template/**" location="/template/" />
 </beans>
